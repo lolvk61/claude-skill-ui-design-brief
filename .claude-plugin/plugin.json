@@ -1,0 +1,13 @@
+{
+  "name": "ui-design-brief",
+  "displayName": "UI Design Brief",
+  "description": "Ask about design and show 2-3 sketches before building a new UI, instead of jumping into generic AI-looking design",
+  "author": {
+    "name": "lolvk61",
+    "url": "https://github.com/lolvk61"
+  },
+  "homepage": "https://github.com/lolvk61/claude-skill-ui-design-brief",
+  "repository": "https://github.com/lolvk61/claude-skill-ui-design-brief",
+  "license": "MIT",
+  "keywords": ["ui", "design", "frontend", "brief", "sketches"]
+}

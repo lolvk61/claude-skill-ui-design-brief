@@ -1,0 +1,14 @@
+{
+  "name": "lolvk61-skills",
+  "description": "Claude Code skills by lolvk61",
+  "owner": {
+    "name": "lolvk61"
+  },
+  "plugins": [
+    {
+      "name": "ui-design-brief",
+      "source": "./",
+      "description": "Ask about design and show 2-3 sketches before building a new UI, instead of jumping into generic AI-looking design"
+    }
+  ]
+}

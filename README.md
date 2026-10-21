@@ -30,14 +30,35 @@
 
 ### Установка
 
-Склонируй репозиторий в папку скиллов Claude Code:
+Репозиторий — это маркетплейс плагинов Claude Code. Добавь его один раз и
+установи плагин:
+
+```bash
+claude plugin marketplace add lolvk61/claude-skill-ui-design-brief
+claude plugin install ui-design-brief@lolvk61-skills
+```
+
+То же самое одной командой внутри сессии Claude Code:
+
+```text
+/plugin install ui-design-brief --marketplace lolvk61/claude-skill-ui-design-brief
+```
+
+Скилл подхватится в новой сессии и сработает сам, когда понадобится новый
+интерфейс. Обновить до свежей версии:
+
+```bash
+claude plugin update ui-design-brief@lolvk61-skills
+```
+
+**Без маркетплейса.** Можно просто склонировать репозиторий в папку скиллов:
 
 ```bash
 git clone https://github.com/lolvk61/claude-skill-ui-design-brief.git ~/.claude/skills/ui-design-brief
 ```
 
-На Windows это `%USERPROFILE%\.claude\skills\ui-design-brief`. Скилл подхватится
-в новой сессии и сработает сам, когда понадобится новый интерфейс.
+На Windows это `%USERPROFILE%\.claude\skills\ui-design-brief`. Обновление тогда
+через `git pull` в этой папке.
 
 ### Тесты
 
@@ -80,14 +101,35 @@ that carries meaning (statuses, chart series, categories) is explicitly allowed.
 
 ### Install
 
-Clone into your Claude Code skills folder:
+This repository is a Claude Code plugin marketplace. Add it once, then install
+the plugin:
+
+```bash
+claude plugin marketplace add lolvk61/claude-skill-ui-design-brief
+claude plugin install ui-design-brief@lolvk61-skills
+```
+
+Or do both in one command from inside a Claude Code session:
+
+```text
+/plugin install ui-design-brief --marketplace lolvk61/claude-skill-ui-design-brief
+```
+
+The skill is picked up in a new session and triggers on its own whenever a new
+UI is needed. To get the latest version:
+
+```bash
+claude plugin update ui-design-brief@lolvk61-skills
+```
+
+**Without the marketplace.** Clone the repository into your skills folder:
 
 ```bash
 git clone https://github.com/lolvk61/claude-skill-ui-design-brief.git ~/.claude/skills/ui-design-brief
 ```
 
-On Windows that is `%USERPROFILE%\.claude\skills\ui-design-brief`. The skill is
-picked up in a new session and triggers on its own whenever a new UI is needed.
+On Windows that is `%USERPROFILE%\.claude\skills\ui-design-brief`. Update it
+with `git pull` in that folder.
 
 ### Evals
 
