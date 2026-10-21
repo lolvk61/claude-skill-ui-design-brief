@@ -45,6 +45,10 @@ git clone https://github.com/lolvk61/claude-skill-ui-design-brief.git ~/.claude/
 приложение, мелкая правка, дашборд «без вопросов», быстрый таймер), а в
 `evals/files/` входной файл для теста с правкой.
 
+### Лицензия
+
+[MIT](LICENSE)
+
 ---
 
 ## English
@@ -90,3 +94,7 @@ picked up in a new session and triggers on its own whenever a new UI is needed.
 `evals/evals.json` holds five test prompts (coffee-shop site, desktop app,
 small fix, "no questions" dashboard, quick timer); `evals/files/` has the input
 file for the small-fix case.
+
+### License
+
+[MIT](LICENSE)
